@@ -1,6 +1,7 @@
 // 22UG1-0791
 // E.D.S.R.Edirisinghe
-// CCS3351 Mobile Application Development Mid term project
+// CCS3351 Mobile Application Development
+// Mid term project
 
 import 'package:flutter/material.dart';
 import 'book_list.dart';
