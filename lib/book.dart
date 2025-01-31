@@ -78,7 +78,14 @@ class Book extends StatelessWidget {
                       Transform.translate(
                         offset: const Offset(-42, 0),
                         child: ElevatedButton(
-                          onPressed: () {},
+                          onPressed: () {
+                            // Add functionality for adding to cart
+                            ScaffoldMessenger.of(context).showSnackBar(
+                              const SnackBar(
+                                content: Text('Book added to cart!'),
+                              ),
+                            );
+                          },
                           style: ElevatedButton.styleFrom(
                             backgroundColor: Colors.green,
                             foregroundColor:

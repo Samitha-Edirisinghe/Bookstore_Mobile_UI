@@ -28,7 +28,7 @@ class DetailsScreen extends StatelessWidget {
           children: [
             Image.asset(
               coverImagePath,
-              height: 500,
+              height: 520,
               width: double.infinity,
               fit: BoxFit.cover,
             ),
